@@ -10,7 +10,7 @@ function dirty() {
 
 const fizzBuzzValue = (number: number = 30): string => buildFizzBuzzString(number);
 
-function buildFizzBuzzString(number: number): string {
+export function buildFizzBuzzString(number: number): string {
   if (number % 3 === 0 && number % 5 === 0) {
     return " FizzBuzz";
   } else if (number % 3 === 0) {
